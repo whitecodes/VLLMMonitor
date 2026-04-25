@@ -1,0 +1,10 @@
+# grafana/provisioning/dashboards/dashboard.yml
+apiVersion: 1
+
+providers:
+  - name: 'vllm'
+    orgId: 1
+    folder: ''
+    type: file
+    options:
+      path: /etc/grafana/dashboards
